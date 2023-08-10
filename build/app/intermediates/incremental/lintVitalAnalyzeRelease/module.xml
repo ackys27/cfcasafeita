@@ -1,11 +1,11 @@
 <lint-module
     format="1"
-    dir="/Users/cesarborman/Downloads/App_site-master-3/android/app"
+    dir="/Users/cesarborman/GitHub/cfcasafeita/android/app"
     name=":app"
     type="APP"
     maven="android:app:"
     gradle="7.3.0"
-    buildFolder="/Users/cesarborman/Downloads/App_site-master-3/build/app"
+    buildFolder="/Users/cesarborman/GitHub/cfcasafeita/build/app"
     bootClassPath="/Users/cesarborman/Library/Android/sdk/platforms/android-33/android.jar:/Users/cesarborman/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
     javaSourceLevel="1.8"
     compileTarget="android-33">

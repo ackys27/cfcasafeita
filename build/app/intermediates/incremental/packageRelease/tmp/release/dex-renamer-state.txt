@@ -1,4 +1,4 @@
-#Wed Aug 02 09:52:48 BRT 2023
-base.0=/Users/cesarborman/Downloads/App_site-master-3/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Wed Aug 09 13:28:27 BRT 2023
+base.0=/Users/cesarborman/GitHub/cfcasafeita/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

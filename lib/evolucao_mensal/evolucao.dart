@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 
+import '../variaveis/inicial.dart';
 
 //TELA DE EVOLUÇÃO MENSAL
 class evolucao extends StatefulWidget {
@@ -9,7 +10,6 @@ class evolucao extends StatefulWidget {
   @override
   State<evolucao> createState() => _evolucaoState();
 }
-final teste = 50;
 
 class _evolucaoState extends State<evolucao> {
   @override
@@ -46,7 +46,7 @@ class _evolucaoState extends State<evolucao> {
             Container(
                 child: Text(
               "Janeiro",
-              style: TextStyle(color: Colors.black,fontSize: 19),
+              style: TextStyle(color: Colors.black, fontSize: 19),
             )),
             Column(
               children: [
@@ -56,11 +56,14 @@ class _evolucaoState extends State<evolucao> {
                       alignment: MainAxisAlignment.center,
                       width: 180.0,
                       lineHeight: 15,
-                      percent: teste / 100,
+                      percent: evomensal_previstojan / 100,
                       animation: true,
-                      center: Text(teste.toString()),
+                      center: Text("$evomensal_previstojan%"),
                       animationDuration: 1500,
-                      leading: Text("Previsto:  ",style: TextStyle(fontSize: 16, color: Colors.black),),
+                      leading: Text(
+                        "Previsto:  ",
+                        style: TextStyle(fontSize: 16, color: Colors.black),
+                      ),
                       barRadius: Radius.circular(5),
                       progressColor: Colors.blue),
                 ),
@@ -70,11 +73,14 @@ class _evolucaoState extends State<evolucao> {
                       alignment: MainAxisAlignment.center,
                       width: 180.0,
                       lineHeight: 15,
-                      percent: 45 / 100,
+                      percent: reamensal_previstojan / 100,
                       animation: true,
-                      center: Text("45%"),
+                      center: Text("$reamensal_previstojan%"),
                       animationDuration: 1500,
-                      leading: Text("Realizado:",style: TextStyle(fontSize: 16, color: Colors.black),),
+                      leading: Text(
+                        "Realizado:",
+                        style: TextStyle(fontSize: 16, color: Colors.black),
+                      ),
                       barRadius: Radius.circular(5),
                       progressColor: Colors.redAccent),
                 )
@@ -85,9 +91,9 @@ class _evolucaoState extends State<evolucao> {
             ),
             Container(
                 child: Text(
-                  "Fevereiro",
-                  style: TextStyle(color: Colors.black,fontSize: 19),
-                )),
+              "Fevereiro",
+              style: TextStyle(color: Colors.black, fontSize: 19),
+            )),
             Column(
               children: [
                 Container(
@@ -96,11 +102,14 @@ class _evolucaoState extends State<evolucao> {
                       alignment: MainAxisAlignment.center,
                       width: 180.0,
                       lineHeight: 15,
-                      percent: 67 / 100,
+                      percent: evomensal_previstofev / 100,
                       animation: true,
-                      center: Text("67%"),
+                      center: Text("$evomensal_previstofev%"),
                       animationDuration: 1500,
-                      leading: Text("Previsto:  ",style: TextStyle(fontSize: 16, color: Colors.black),),
+                      leading: Text(
+                        "Previsto:  ",
+                        style: TextStyle(fontSize: 16, color: Colors.black),
+                      ),
                       barRadius: Radius.circular(5),
                       progressColor: Colors.blue),
                 ),
@@ -110,11 +119,14 @@ class _evolucaoState extends State<evolucao> {
                       alignment: MainAxisAlignment.center,
                       width: 180.0,
                       lineHeight: 15,
-                      percent: 54 / 100,
+                      percent: reamensal_previstofev / 100,
                       animation: true,
-                      center: Text("54%"),
+                      center: Text("$reamensal_previstofev%"),
                       animationDuration: 1500,
-                      leading: Text("Realizado:",style: TextStyle(fontSize: 16, color: Colors.black),),
+                      leading: Text(
+                        "Realizado:",
+                        style: TextStyle(fontSize: 16, color: Colors.black),
+                      ),
                       barRadius: Radius.circular(5),
                       progressColor: Colors.redAccent),
                 )
@@ -125,9 +137,9 @@ class _evolucaoState extends State<evolucao> {
             ),
             Container(
                 child: Text(
-                  "Março",
-                  style: TextStyle(color: Colors.black,fontSize: 19),
-                )),
+              "Março",
+              style: TextStyle(color: Colors.black, fontSize: 19),
+            )),
             Column(
               children: [
                 Container(
@@ -136,11 +148,14 @@ class _evolucaoState extends State<evolucao> {
                       alignment: MainAxisAlignment.center,
                       width: 180.0,
                       lineHeight: 15,
-                      percent: 72 / 100,
+                      percent: evomensal_previstomar / 100,
                       animation: true,
-                      center: Text("72%"),
+                      center: Text("$evomensal_previstomar%"),
                       animationDuration: 1500,
-                      leading: Text("Previsto:  ",style: TextStyle(fontSize: 16, color: Colors.black),),
+                      leading: Text(
+                        "Previsto:  ",
+                        style: TextStyle(fontSize: 16, color: Colors.black),
+                      ),
                       barRadius: Radius.circular(5),
                       progressColor: Colors.blue),
                 ),
@@ -150,11 +165,14 @@ class _evolucaoState extends State<evolucao> {
                       alignment: MainAxisAlignment.center,
                       width: 180.0,
                       lineHeight: 15,
-                      percent: 67 / 100,
+                      percent: reamensal_previstomar / 100,
                       animation: true,
-                      center: Text("67%"),
+                      center: Text("$reamensal_previstomar%"),
                       animationDuration: 1500,
-                      leading: Text("Realizado:",style: TextStyle(fontSize: 16, color: Colors.black),),
+                      leading: Text(
+                        "Realizado:",
+                        style: TextStyle(fontSize: 16, color: Colors.black),
+                      ),
                       barRadius: Radius.circular(5),
                       progressColor: Colors.redAccent),
                 )
@@ -168,7 +186,7 @@ class _evolucaoState extends State<evolucao> {
               padding: EdgeInsets.all(8),
               child: Center(
                 child: Text(
-                  "Como avançam os serviços ?",
+                  "Como avançam os serviços",
                   style: TextStyle(
                       fontSize: 25,
                       color: Colors.yellow[900],
@@ -185,173 +203,258 @@ class _evolucaoState extends State<evolucao> {
               height: 40,
             ),
 
+            // Row(
+            //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            //   children: [
+            //        Padding(
+            //          padding: const EdgeInsets.only(right: 40),
+            //          child: Text("Etapa",
+            //            style: TextStyle(
+            //              fontSize: 25,
+            //              color: Colors.black,
+            //              fontWeight: FontWeight.bold
+            //            ),
+            //          ),
+            //        ),
+            //         Padding(
+            //         padding: const EdgeInsets.only(right: 58),
+            //           child: Text("%",
+            //             style: TextStyle(
+            //               fontSize: 25,
+            //               color: Colors.black,
+            //               fontWeight: FontWeight.bold
+            //             ),),
+            //         )
+            //   ],
+            // ),
+            //Fundação
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                   Padding(
-                     padding: const EdgeInsets.only(right: 40),
-                     child: Text("Etapa",
-                       style: TextStyle(
-                         fontSize: 25,
-                         color: Colors.black,
-                         fontWeight: FontWeight.bold
-                       ),
-                     ),
-                   ),
-                    Padding(
-                    padding: const EdgeInsets.only(right: 58),
-                      child: Text("%",
-                        style: TextStyle(
-                          fontSize: 25,
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold
-                        ),),
-                    )
+                Icon(Icons.horizontal_split, ),
+                Container(
+                  padding: EdgeInsets.only(right: 180),
+                  child: Text(
+                    "Fundação",
+                    style: TextStyle(
+                      fontSize: 22,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Container(
+                    child: Text(
+                  "$evofundacao%",
+                  style: TextStyle(fontSize: 20),
+                ))
               ],
             ),
             SizedBox(
-              height: 30,
+              height: 20,
             ),
             Row(
+                mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  child: Expanded(
-                    child: LinearPercentIndicator(
-                        alignment: MainAxisAlignment.center,
-                        width: 180.0,
-                        lineHeight: 15,
-                        percent: 90 / 100,
-                        animation: true,
-                        center: Text("90%"),
-                        animationDuration: 1500,
-                        leading: Text(
-                          "Fundação: ",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.black,
-                          ),
-                        ),
-                        barRadius: Radius.circular(5),
-                        progressColor: Colors.red),
-                  ),
+                  child: LinearPercentIndicator(
+                      alignment: MainAxisAlignment.center,
+                      width: 280.0,
+                      lineHeight: 15,
+                      percent: evofundacao / 100,
+                      animation: true,
+                      animationDuration: 1500,
+                      barRadius: Radius.circular(5),
+                      progressColor: Colors.red,
+                ),
                 ),
               ],
             ),
             SizedBox(
               height: 35,
             ),
+
+
+            //Estrutura
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Icon(Icons.corporate_fare, ),
+                Container(
+                  padding: EdgeInsets.only(right: 180),
+                  child: Text(
+                    "Estrutura",
+                    style: TextStyle(
+                      fontSize: 22,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Container(
+                    child: Text(
+                      "$evoestrutura%",
+                      style: TextStyle(fontSize: 20),
+                    ))
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  child: Expanded(
-                    child: LinearPercentIndicator(
-                        alignment: MainAxisAlignment.center,
-                        width: 180.0,
-                        lineHeight: 15,
-                        percent: 80 / 100,
-                        animation: true,
-                        center: Text("80%"),
-                        animationDuration: 1500,
-                        leading: Text(
-                          "Estrutura: ",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.black,
-                          ),
-                        ),
-                        barRadius: Radius.circular(5),
-                        progressColor: Colors.yellow),
-                  ),
+                  child: LinearPercentIndicator(
+                      alignment: MainAxisAlignment.center,
+                      width: 280.0,
+                      lineHeight: 15,
+                      percent: evoestrutura/ 100,
+                      animation: true,
+                      animationDuration: 1500,
+                      barRadius: Radius.circular(5),
+                      progressColor: Colors.yellow),
                 ),
               ],
             ),
             SizedBox(
               height: 35,
             ),
+
+            //Alvenaria
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Icon(Icons.rounded_corner ),
+                Container(
+                  padding: EdgeInsets.only(right: 180),
+                  child: Text(
+                    "Alvenaria",
+                    style: TextStyle(
+                      fontSize: 22,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Container(
+                    child: Text(
+                      "$evoalvenaria%",
+                      style: TextStyle(fontSize: 20),
+                    ))
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  child: Expanded(
-                    child: LinearPercentIndicator(
-                        alignment: MainAxisAlignment.center,
-                        width: 180.0,
-                        lineHeight: 15,
-                        percent: 60 / 100,
-                        animation: true,
-                        center: Text("60%"),
-                        animationDuration: 1500,
-                        leading: Text(
-                          "Alvenária:  ",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.black,
-                          ),
-                        ),
-                        barRadius: Radius.circular(5),
-                        progressColor: Colors.green),
-                  ),
+                  child: LinearPercentIndicator(
+                      alignment: MainAxisAlignment.center,
+                      width: 280.0,
+                      lineHeight: 15,
+                      percent: evoalvenaria/ 100,
+                      animation: true,
+                      animationDuration: 1500,
+                      barRadius: Radius.circular(5),
+                      progressColor: Colors.green),
                 ),
               ],
             ),
             SizedBox(
               height: 35,
             ),
+
+
+          //INSTALAÇÃO
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Icon(Icons.construction ),
+                Container(
+                  padding: EdgeInsets.only(right: 160),
+                  child: Text(
+                    "Instalações",
+                    style: TextStyle(
+                      fontSize: 21,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Container(
+                    child: Text(
+                      "$evoinstalacoes%",
+                      style: TextStyle(fontSize: 20),
+                    ))
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  child: Expanded(
-                    child: LinearPercentIndicator(
-                        alignment: MainAxisAlignment.center,
-                        width: 180.0,
-                        lineHeight: 15,
-                        percent: 30 / 100,
-                        animation: true,
-                        center: Text("30%"),
-                        animationDuration: 1500,
-                        leading: Text(
-                          "Instalações:",
-                          style: TextStyle(
-                            fontSize: 19,
-                            color: Colors.black,
-                          ),
-                        ),
-                        barRadius: Radius.circular(5),
-                        progressColor: Colors.blue),
-                  ),
+                  child: LinearPercentIndicator(
+                      alignment: MainAxisAlignment.center,
+                      width: 280.0,
+                      lineHeight: 15,
+                      percent: evoinstalacoes/ 100,
+                      animation: true,
+                      animationDuration: 1500,
+                      barRadius: Radius.circular(5),
+                      progressColor: Colors.blue),
                 ),
               ],
             ),
             SizedBox(
               height: 35,
             ),
+
+            //ACABAMENTO
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Icon(Icons.view_comfy ),
+                Container(
+                  padding: EdgeInsets.only(right: 160),
+                  child: Text(
+                    "Acabamento",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Container(
+                    child: Text(
+                      "$evoacabamendo%",
+                      style: TextStyle(fontSize: 20),
+                    ))
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  child: Expanded(
-                    child: LinearPercentIndicator(
-                        alignment: MainAxisAlignment.center,
-                        width: 180.0,
-                        lineHeight: 15,
-                        percent: 15 / 100,
-                        animation: true,
-                        center: Text("15%"),
-                        animationDuration: 1500,
-                        leading: Text(
-                          "Acabamento:",
-                          style: TextStyle(
-                            fontSize: 18,
-                            color: Colors.black,
-                          ),
-                        ),
-                        barRadius: Radius.circular(5),
-                        progressColor: Colors.orange),
-                  ),
+                  child: LinearPercentIndicator(
+                      alignment: MainAxisAlignment.center,
+                      width: 280.0,
+                      lineHeight: 15,
+                      percent: evoacabamendo/ 100,
+                      animation: true,
+                      animationDuration: 1500,
+                      barRadius: Radius.circular(5),
+                      progressColor: Colors.orange),
                 ),
               ],
             ),
             SizedBox(
               height: 35,
             ),
+
 
           ]),
         ]),

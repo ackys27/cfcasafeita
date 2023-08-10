@@ -4,9 +4,9 @@
     minSdkVersion="16"
     targetSdkVersion="33"
     shrinking="true"
-    mergedManifest="/Users/cesarborman/Downloads/App_site-master-3/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
-    proguardFiles="/Users/cesarborman/Downloads/App_site-master-3/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/opt/homebrew/Caskroom/flutter/3.7.6/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
-    partialResultsDir="/Users/cesarborman/Downloads/App_site-master-3/build/app/intermediates/lint_vital_partial_results/release/out"
+    mergedManifest="/Users/cesarborman/GitHub/cfcasafeita/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/Users/cesarborman/GitHub/cfcasafeita/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/opt/homebrew/Caskroom/flutter/3.7.6/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/cesarborman/GitHub/cfcasafeita/build/app/intermediates/lint_vital_partial_results/release/out"
     desugaredMethodsFiles="/Users/cesarborman/.gradle/caches/transforms-3/bd65921de16db1d78bd37241e498ab28/transformed/D8BackportedDesugaredMethods.txt">
   <buildFeatures
       namespacing="REQUIRED"/>
@@ -32,9 +32,9 @@
         value="android.app.Application" />
   </manifestPlaceholders>
   <mainArtifact
-      classOutputs="/Users/cesarborman/Downloads/App_site-master-3/build/app/intermediates/javac/release/classes:/Users/cesarborman/Downloads/App_site-master-3/build/app/tmp/kotlin-classes/release:/Users/cesarborman/Downloads/App_site-master-3/build/app/kotlinToolingMetadata:/Users/cesarborman/Downloads/App_site-master-3/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      classOutputs="/Users/cesarborman/GitHub/cfcasafeita/build/app/intermediates/javac/release/classes:/Users/cesarborman/GitHub/cfcasafeita/build/app/tmp/kotlin-classes/release:/Users/cesarborman/GitHub/cfcasafeita/build/app/kotlinToolingMetadata:/Users/cesarborman/GitHub/cfcasafeita/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
       applicationId="com.example.appsite"
-      generatedSourceFolders="/Users/cesarborman/Downloads/App_site-master-3/build/app/generated/ap_generated_sources/release/out:/Users/cesarborman/Downloads/App_site-master-3/build/app/generated/aidl_source_output_dir/release/out:/Users/cesarborman/Downloads/App_site-master-3/build/app/generated/source/buildConfig/release:/Users/cesarborman/Downloads/App_site-master-3/build/app/generated/renderscript_source_output_dir/release/out"
-      generatedResourceFolders="/Users/cesarborman/Downloads/App_site-master-3/build/app/generated/res/rs/release:/Users/cesarborman/Downloads/App_site-master-3/build/app/generated/res/resValues/release">
+      generatedSourceFolders="/Users/cesarborman/GitHub/cfcasafeita/build/app/generated/ap_generated_sources/release/out:/Users/cesarborman/GitHub/cfcasafeita/build/app/generated/aidl_source_output_dir/release/out:/Users/cesarborman/GitHub/cfcasafeita/build/app/generated/source/buildConfig/release:/Users/cesarborman/GitHub/cfcasafeita/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/Users/cesarborman/GitHub/cfcasafeita/build/app/generated/res/rs/release:/Users/cesarborman/GitHub/cfcasafeita/build/app/generated/res/resValues/release">
   </mainArtifact>
 </variant>

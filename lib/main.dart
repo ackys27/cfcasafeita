@@ -159,16 +159,16 @@ class _MyHomePageState extends State<MyHomePage> {
               scaffoldKey.currentState!.closeDrawer();
               },
             ),
-            ListTile(
-              title: Text("O que avançou esse mês", style: TextStyle(fontSize: 20, color: Colors.orange[700], fontFamily: "Pacifico-Regular", fontWeight: FontWeight.bold)),
-              onTap: (){
-                Future.delayed(Duration(microseconds: 200),(){
-                _changePage(4);
-                });
-                scaffoldKey.currentState!.closeDrawer();
+            // ListTile(
+            //   title: Text("O que avançou esse mês", style: TextStyle(fontSize: 20, color: Colors.orange[700], fontFamily: "Pacifico-Regular", fontWeight: FontWeight.bold)),
+            //   onTap: (){
+            //     Future.delayed(Duration(microseconds: 200),(){
+            //     _changePage(4);
+            //     });
+            //     scaffoldKey.currentState!.closeDrawer();
 
-              },
-            ),
+            //   },
+            // ),
             SizedBox(height: 50,),
             ListTile(
               title: Text("Sair",style: TextStyle(fontSize: 25, color: Colors.orange[700],fontFamily: "Pacifico-Regular", fontWeight: FontWeight.bold,)),
@@ -186,7 +186,7 @@ class _MyHomePageState extends State<MyHomePage> {
             fotos_page(),
             ficha(),
             evolucao(),
-            evolucao_mensal(),
+            // evolucao_mensal(),
         ],
       ),
     );

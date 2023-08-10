@@ -49,7 +49,7 @@ class _fotos_pageState extends State<fotos_page> {
           Container(
             padding: EdgeInsets.all(10),
             child: Text(
-              "Relatório Fotográfico",
+              "Fotos e Vídeos",
               style: TextStyle(
                   color: Colors.black,
                   fontSize: 25,

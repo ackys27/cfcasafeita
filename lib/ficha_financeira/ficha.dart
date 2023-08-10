@@ -28,7 +28,7 @@ class _fichaState extends State<ficha> {
           isExpanded: fi,
           headerBuilder: (_, isExpanded){
            return ListTile(
-          title: Center(child: Text("A Pagar - R\$ 59.711,52")),
+          title: Center(child: Text("À Pagar - R\$ 59.711,52")),
         );
       },
 

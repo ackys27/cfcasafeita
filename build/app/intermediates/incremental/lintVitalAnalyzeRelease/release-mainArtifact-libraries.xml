@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/Users/cesarborman/Downloads/App_site-master-3/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/Users/cesarborman/Downloads/App_site-master-3/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/Users/cesarborman/Downloads/App_site-master-3/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/Users/cesarborman/GitHub/cfcasafeita/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/Users/cesarborman/GitHub/cfcasafeita/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/Users/cesarborman/GitHub/cfcasafeita/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="/Users/cesarborman/Downloads/App_site-master-3/android@@:shared_preferences_android::release"
-      jars="/Users/cesarborman/Downloads/App_site-master-3/build/shared_preferences_android/.transforms/b359d1b3f62c6e7e43154ba54601d4a2/transformed/out/jars/classes.jar:/Users/cesarborman/Downloads/App_site-master-3/build/shared_preferences_android/.transforms/b359d1b3f62c6e7e43154ba54601d4a2/transformed/out/jars/libs/R.jar"
+      name="/Users/cesarborman/GitHub/cfcasafeita/android@@:shared_preferences_android::release"
+      jars="/Users/cesarborman/GitHub/cfcasafeita/build/shared_preferences_android/.transforms/3c595a0ef88f3e9ffd1411e1ca2f6c23/transformed/out/jars/classes.jar:/Users/cesarborman/GitHub/cfcasafeita/build/shared_preferences_android/.transforms/3c595a0ef88f3e9ffd1411e1ca2f6c23/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
-      folder="/Users/cesarborman/Downloads/App_site-master-3/build/shared_preferences_android/.transforms/b359d1b3f62c6e7e43154ba54601d4a2/transformed/out"
+      folder="/Users/cesarborman/GitHub/cfcasafeita/build/shared_preferences_android/.transforms/3c595a0ef88f3e9ffd1411e1ca2f6c23/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
