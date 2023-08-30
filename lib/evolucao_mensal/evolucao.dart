@@ -234,7 +234,6 @@ class _evolucaoState extends State<evolucao> {
               children: [
                 Icon(Icons.horizontal_split, ),
                 Container(
-                  padding: EdgeInsets.only(right: 180),
                   child: Text(
                     "Fundação",
                     style: TextStyle(
@@ -281,7 +280,6 @@ class _evolucaoState extends State<evolucao> {
               children: [
                 Icon(Icons.corporate_fare, ),
                 Container(
-                  padding: EdgeInsets.only(right: 180),
                   child: Text(
                     "Estrutura",
                     style: TextStyle(
@@ -326,7 +324,6 @@ class _evolucaoState extends State<evolucao> {
               children: [
                 Icon(Icons.rounded_corner ),
                 Container(
-                  padding: EdgeInsets.only(right: 180),
                   child: Text(
                     "Alvenaria",
                     style: TextStyle(
@@ -372,7 +369,6 @@ class _evolucaoState extends State<evolucao> {
               children: [
                 Icon(Icons.construction ),
                 Container(
-                  padding: EdgeInsets.only(right: 160),
                   child: Text(
                     "Instalações",
                     style: TextStyle(
@@ -417,7 +413,6 @@ class _evolucaoState extends State<evolucao> {
               children: [
                 Icon(Icons.view_comfy ),
                 Container(
-                  padding: EdgeInsets.only(right: 160),
                   child: Text(
                     "Acabamento",
                     style: TextStyle(
